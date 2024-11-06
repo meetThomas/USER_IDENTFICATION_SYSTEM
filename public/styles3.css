@@ -1,0 +1,53 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0; /* Light background color */
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+ 
+h1, h2 {
+    margin-bottom: 10px; /* Space below headings */
+    color: #333; /* Dark text color */
+}
+
+p {
+    margin-bottom: 10px; /* Space below each paragraph */
+    font-size: 16px; /* Font size for paragraphs */
+    color: #555; /* Slightly lighter text color */
+}
+
+a {
+    display: block; /* Make the link block level for spacing */
+    text-align: center; /* Center the link */
+    margin-top: 20px; /* Space above the link */
+    padding: 10px; /* Padding around the link */
+    border: 1px solid #007BFF; /* Border color */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #007BFF; /* Link background */
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

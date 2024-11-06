@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class=" form-container">
+        <h2 class="form">ADD DETAILS</h2>
+        <form action="/add-details" method="POST">
+            <!-- Name Field -->
+            <div class="mb-3">
+                <label for="name" class="form-label"></label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" required>
+            </div>
+
+            <!-- Department Field -->
+            <div class="mb-3">
+                <label for="department" class="form-label"></label>
+                <input type="text" class="form-control" name="department" id="department" placeholder="Enter department" required>
+            </div>
+
+            <!-- Address Field -->
+            <div class="mb-3">
+                <label for="address" class="form-label"></label>
+                <input type="text" class="form-control" name="address" id="address" placeholder="Enter address" required>
+             </div>
+
+            <!-- Phone Number Field -->
+            <div class="mb-3">
+                <label for="phone" class="form-label"></label>
+                <input type="text" class="form-control" name="phone" id="phone" placeholder="Enter phone number" required>
+            </div>
+
+            <!-- Staff or Student  -->
+            <div class="mb-3">
+                <label for="qualification" class="form-label">Qualification</label>
+                <input class="form-control" type="text" name="qualification" id="qualification" placeholder="Staff or Student" required>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="mb-3">
+                
+                  <button type="submit" class="btn btn-primary w-100">Submit</button>
+
+            </div> 
+        </form>
+    </div>
+</body>
+</html>
