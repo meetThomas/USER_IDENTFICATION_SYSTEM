@@ -14,10 +14,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 
 const db = mysql.createConnection({
-  host: '127.0.0.1', // local host
-  user: 'root', //  MySQL username
-  password: '', //  MySQL password
-  database: '' //  database name
+  host: , // local host
+  user: , //  MySQL username
+  password: , //  MySQL password
+  database: //  database name
 });
 
 db.connect(err => {
